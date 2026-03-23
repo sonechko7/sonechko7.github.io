@@ -11,7 +11,7 @@ permalink: /kontakty/
 
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
 <h3 style="margin-top:0">📍 Адреса</h3>
-<p>алея Миру, 3а<br>м. Багачеве<br>Черкаська обл., Україна</p>
+<p>вулиця Миру, 3а<br>м. Багачеве<br>Черкаська обл., Україна</p>
 </div>
 
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
@@ -46,7 +46,7 @@ permalink: /kontakty/
 ## Керівництво закладу
 
 Для запису на прийом до завідувача зверніться:
-- Особисто: алея Миру, 3а (каб. директора)
+- Особисто: вулиця Миру, 3а (каб. директора)
 - Телефоном: [(04740) 6-12-52](tel:+380474061252)
 - Email: [dnz-sonechko@ukr.net](mailto:dnz-sonechko@ukr.net)
 

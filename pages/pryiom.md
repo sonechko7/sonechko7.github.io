@@ -55,7 +55,7 @@ permalink: /pryiom/
 
 ## Куди звертатись
 
-📍 алея Миру, 3а, м. Багачеве
+📍 вулиця Миру, 3а, м. Багачеве
 📞 [(04740) 6-12-52](tel:+380474061252)
 ✉️ [dnz-sonechko@ukr.net](mailto:dnz-sonechko@ukr.net)
 
