@@ -29,6 +29,23 @@ layout: default
       <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%;border-radius:12px;margin-bottom:28px;">
     {% endif %}
     {{ content }}
-    <a href="{{ '/novyny/' | relative_url }}" class="btn-back">← До новин</a>
+
+    <div class="post-nav">
+      <div class="post-nav-prev">
+        {% if page.next %}
+          <span class="post-nav-label">← Новіша</span>
+          <a href="{{ page.next.url | relative_url }}" class="post-nav-link">{{ page.next.title }}</a>
+        {% endif %}
+      </div>
+      <div class="post-nav-center">
+        <a href="{{ '/novyny/' | relative_url }}" class="btn-back">Всі новини</a>
+      </div>
+      <div class="post-nav-next">
+        {% if page.previous %}
+          <span class="post-nav-label">Старіша →</span>
+          <a href="{{ page.previous.url | relative_url }}" class="post-nav-link">{{ page.previous.title }}</a>
+        {% endif %}
+      </div>
+    </div>
   </article>
 </div>
