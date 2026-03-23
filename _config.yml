@@ -6,9 +6,8 @@ address: "м. Багачеве, алея Миру, 3а"
 groups: 7
 pupils: 129
 
-# TODO: set your GitHub username and repo, e.g. https://username.github.io/sonechko
 baseurl: ""
-url: ""
+url: "https://katatsu12.github.io"
 
 lang: uk
 
