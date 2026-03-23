@@ -29,9 +29,9 @@
 
 backend:
   name: github
-  repo: YOUR_USERNAME/YOUR_REPO        # ← Змініть це!
+  repo: katatsu12/katatsu12.github.io
   branch: main
-  base_url: https://YOUR_NETLIFY_SITE.netlify.app  # ← Змініть це!
+  base_url: https://katatsu12.github.io.netlify.app
 
 # local_backend: true   # ← Розкоментуйте для локального тестування
 
