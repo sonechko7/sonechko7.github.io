@@ -92,6 +92,7 @@ img { max-width: 100%; height: auto; display: block; }
   align-items: center;
   gap: 12px;
   text-decoration: none;
+  min-width: 0;
 }
 
 .sun-logo {
@@ -1098,7 +1099,9 @@ a.news-list-item {
   .feature-label { font-size: 0.78rem; }
   .page-banner { padding: 32px 0 28px; }
   .page-container { padding: 32px var(--padding-x) 48px; }
-  .btn-enroll { font-size: 0.82rem; padding: 8px 16px; }
+  .btn-enroll { display: none; }
+  .logo-text { font-size: 1rem; }
+  .logo-text small { display: none; }
   .news-grid { grid-template-columns: 1fr; }
   .info-strip-inner { flex-direction: column; align-items: center; text-align: center; }
 }
