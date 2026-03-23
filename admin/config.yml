@@ -21,8 +21,9 @@
 #    → Identity → Invite users → введіть свій email
 #    (перейдіть за посиланням у листі та встановіть пароль)
 #
-# 4. Замініть base_url нижче на ваш Netlify URL
-#    Приклад: https://random-name-123.netlify.app
+# 4. Налаштуйте OAuth у Netlify:
+#    → sonechko.netlify.app → Site configuration → Access control → OAuth
+#    → Install provider → GitHub → вставте Client ID та Client Secret
 #
 # ДЛЯ ЛОКАЛЬНОЇ РОЗРОБКИ (на своєму комп'ютері):
 #    Розкоментуйте рядок: local_backend: true
@@ -34,7 +35,7 @@ backend:
   name: github
   repo: sonechko7/sonechko7.github.io
   branch: main
-  base_url: https://sonechko.netlify.app
+  base_url: https://api.netlify.com
   auth_endpoint: auth
 
 # local_backend: true   # ← Розкоментуйте для локального тестування
