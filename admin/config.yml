@@ -31,7 +31,7 @@ backend:
   name: github
   repo: katatsu12/katatsu12.github.io
   branch: main
-  base_url: https://shiny-zabaione-2aea27.netlify.app
+  base_url: https://sonechko.netlify.app
   auth_endpoint: auth
 
 # local_backend: true   # ← Розкоментуйте для локального тестування
