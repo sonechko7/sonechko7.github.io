@@ -1,25 +1,28 @@
 # =============================================================
 # Decap CMS — КЗДО №7 «Сонечко»
 # =============================================================
-# НАЛАШТУВАННЯ ПЕРЕД ПУБЛІКАЦІЄЮ:
+# Репозиторій: sonechko7/sonechko7.github.io
+# Сайт:        https://sonechko7.github.io
+# Адмін-панель: https://sonechko7.github.io/admin/
 #
-# 1. Замініть YOUR_USERNAME та YOUR_REPO нижче на ваші дані
-#    Приклад: repo: ivanka123/sonechko
+# НАЛАШТУВАННЯ NETLIFY (якщо ще не зроблено):
 #
-# 2. Створіть GitHub OAuth App:
-#    → https://github.com/settings/developers → "New OAuth App"
-#    → Homepage URL:    https://YOUR_USERNAME.github.io/YOUR_REPO/
-#    → Callback URL:    https://YOUR_USERNAME.github.io/YOUR_REPO/admin/
-#    → Скопіюйте Client ID
+# 1. Зайдіть на https://app.netlify.com
+#    → Add new site → Import an existing project → GitHub
+#    → Виберіть репозиторій: sonechko7/sonechko7.github.io
+#    → Deploy (сайт залишається на GitHub Pages, Netlify тільки для OAuth)
 #
-# 3. Зареєструйте репозиторій на Netlify (БЕЗКОШТОВНО, тільки
-#    для OAuth — сайт залишається на GitHub Pages):
-#    → https://app.netlify.com → New site from Git → вибрати репо
-#    → Settings → Identity → Enable Identity
-#    → Settings → Identity → Services → GitHub → Enable
-#    → Скопіюйте URL сайту Netlify (напр. random-name-123.netlify.app)
+# 2. Увімкніть Identity:
+#    → Site configuration → Identity → Enable Identity
+#    → Registration: Invite only
+#    → Services → Git Gateway → Enable Git Gateway
+#
+# 3. Запросіть себе як користувача:
+#    → Identity → Invite users → введіть свій email
+#    (перейдіть за посиланням у листі та встановіть пароль)
 #
 # 4. Замініть base_url нижче на ваш Netlify URL
+#    Приклад: https://random-name-123.netlify.app
 #
 # ДЛЯ ЛОКАЛЬНОЇ РОЗРОБКИ (на своєму комп'ютері):
 #    Розкоментуйте рядок: local_backend: true
@@ -29,7 +32,7 @@
 
 backend:
   name: github
-  repo: katatsu12/katatsu12.github.io
+  repo: sonechko7/sonechko7.github.io
   branch: main
   base_url: https://sonechko.netlify.app
   auth_endpoint: auth
