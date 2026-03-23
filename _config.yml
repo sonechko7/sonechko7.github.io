@@ -1,0 +1,48 @@
+title: КЗДО №7 «Сонечко»
+description: Комунальний заклад дошкільної освіти №7 «Сонечко» — Територія щасливого дитинства
+email: dnz-sonechko@ukr.net
+phone: "(04740) 6-12-52"
+address: "м. Багачеве, алея Миру, 3а"
+groups: 7
+pupils: 129
+
+# TODO: set your GitHub username and repo, e.g. https://username.github.io/sonechko
+baseurl: ""
+url: ""
+
+lang: uk
+
+# Navigation menu
+nav:
+  - title: Про заклад
+    url: /pro-zaklad/
+  - title: Освітній процес
+    url: /osvitny-protses/
+  - title: Наш колектив
+    url: /nash-kolektyv/
+  - title: Прийом до закладу
+    url: /pryiom/
+  - title: Прозорість та відкритість
+    url: /prozorist/
+  - title: Якість освіти
+    url: /yakist-osvity/
+  - title: Для батьків
+    url: /dlia-batkiv/
+  - title: Новини
+    url: /novyny/
+  - title: Контакти
+    url: /kontakty/
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Posts URL structure
+permalink: /novyny/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/

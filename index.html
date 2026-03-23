@@ -1,0 +1,180 @@
+---
+layout: home
+title: Головна
+---
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="cloud cloud-1"></div>
+  <div class="cloud cloud-2"></div>
+  <div class="cloud cloud-3"></div>
+
+  <div class="butterfly butterfly-1">🦋</div>
+  <div class="butterfly butterfly-2">🦋</div>
+
+  <svg class="hero-sun" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <radialGradient id="heroSunGrad" cx="50%" cy="50%">
+        <stop offset="0%" stop-color="#fff3c4"/>
+        <stop offset="40%" stop-color="#ffe066"/>
+        <stop offset="100%" stop-color="#ffb800"/>
+      </radialGradient>
+      <filter id="sunGlow">
+        <feGaussianBlur stdDeviation="6" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <g filter="url(#sunGlow)">
+      <g fill="#ffd233" opacity="0.5">
+        <rect x="95" y="5" width="10" height="40" rx="5"/>
+        <rect x="95" y="155" width="10" height="40" rx="5"/>
+        <rect x="5" y="95" width="40" height="10" rx="5"/>
+        <rect x="155" y="95" width="40" height="10" rx="5"/>
+        <rect x="30" y="30" width="10" height="35" rx="5" transform="rotate(45 35 47)"/>
+        <rect x="160" y="30" width="10" height="35" rx="5" transform="rotate(-45 165 47)"/>
+        <rect x="30" y="135" width="10" height="35" rx="5" transform="rotate(-45 35 152)"/>
+        <rect x="160" y="135" width="10" height="35" rx="5" transform="rotate(45 165 152)"/>
+      </g>
+      <circle cx="100" cy="100" r="52" fill="url(#heroSunGrad)"/>
+      <ellipse cx="84" cy="92" rx="6" ry="7" fill="#c88800"/>
+      <ellipse cx="116" cy="92" rx="6" ry="7" fill="#c88800"/>
+      <circle cx="82" cy="89" rx="2.5" ry="2.5" fill="#fff" opacity="0.6"/>
+      <circle cx="114" cy="89" rx="2.5" ry="2.5" fill="#fff" opacity="0.6"/>
+      <path d="M78 110 Q100 130 122 110" stroke="#c88800" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="70" cy="106" r="7" fill="#ffaa66" opacity="0.35"/>
+      <circle cx="130" cy="106" r="7" fill="#ffaa66" opacity="0.35"/>
+    </g>
+  </svg>
+
+  <div class="flower flower-1">🌻</div>
+  <div class="flower flower-2">🌼</div>
+  <div class="flower flower-3">🌷</div>
+  <div class="flower flower-4">🌸</div>
+
+  <svg class="grass-layer" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M0 40 Q120 10, 240 35 T480 30 T720 38 T960 25 T1200 35 T1440 30 V100 H0Z" fill="#6cc56c"/>
+    <path d="M0 55 Q100 35, 200 50 T400 45 T600 52 T800 40 T1000 50 T1200 42 T1440 48 V100 H0Z" fill="#5cb85c"/>
+    <path d="M0 70 Q80 55, 160 65 T320 60 T480 68 T640 58 T800 65 T960 60 T1120 68 T1280 62 T1440 66 V100 H0Z" fill="#4aa84a"/>
+  </svg>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-welcome">Ласкаво просимо до</p>
+      <h1 class="hero-title">КЗДО №7 <span class="accent">«Сонечко»</span></h1>
+      <p class="hero-tagline">Територія щасливого дитинства</p>
+      <p class="hero-address">
+        {{ site.address }} &bull; {{ site.groups }} груп &bull; {{ site.pupils }} вихованців
+      </p>
+      <div class="hero-buttons">
+        <a href="{{ '/pro-zaklad/' | relative_url }}" class="btn-hero-primary">Детальніше про нас</a>
+        <a href="{{ '/pryiom/' | relative_url }}" class="btn-hero-secondary">Записатись до ЗДО</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="children-frame">
+        <div class="children-placeholder">
+          <div class="emoji-kids">👦🏼 👧🏼 👦🏻<br>👧🏽 👦🏼 👧🏻</div>
+          <p>* місце для фото дітей</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURES STRIP ===== -->
+<section class="features-strip">
+  <div class="features-inner">
+    <div class="feature-item">
+      <div class="feature-icon safe">🛡️</div>
+      <span class="feature-label">Безпечне<br>середовище</span>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon edu">📚</div>
+      <span class="feature-label">Сучасна<br>освіта</span>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon care">💛</div>
+      <span class="feature-label">Турбота про<br>кожного</span>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon grow">🌱</div>
+      <span class="feature-label">Гармонійний<br>розвиток</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LATEST NEWS ===== -->
+<section class="news-section">
+  <div class="section-header">
+    <h2 class="section-title">Останні <span>новини</span></h2>
+    <a href="{{ '/novyny/' | relative_url }}" class="btn-primary" style="font-size:0.88rem;padding:10px 22px;">Всі новини →</a>
+  </div>
+
+  <div class="news-grid">
+    {% if site.posts.size > 0 %}
+      {% for post in site.posts limit: 3 %}
+        <article class="news-card">
+          <div class="news-card-img">
+            {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            {% else %}
+              {{ post.icon | default: '📰' }}
+            {% endif %}
+          </div>
+          <div class="news-card-body">
+            <div class="news-card-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d.%m.%Y" }}</time>
+              {% for cat in post.categories %}
+                <span class="category-badge">{{ cat }}</span>
+              {% endfor %}
+            </div>
+            <h3 class="news-card-title">
+              <a href="{{ post.url | relative_url }}" style="color:inherit;text-decoration:none;">{{ post.title }}</a>
+            </h3>
+            <p class="news-card-excerpt">{{ post.excerpt | strip_html | truncate: 110 }}</p>
+            <a href="{{ post.url | relative_url }}" class="news-card-link">Читати далі →</a>
+          </div>
+        </article>
+      {% endfor %}
+    {% else %}
+      <p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px 0;">
+        Новини незабаром з'являться тут 🌻
+      </p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- ===== INFO STRIP ===== -->
+<section class="info-strip">
+  <div class="info-strip-inner">
+    <div class="info-item">
+      <div class="info-icon">🕖</div>
+      <div class="info-text">
+        <strong>Режим роботи</strong>
+        <span>Пн–Пт: 07:00–18:00</span>
+      </div>
+    </div>
+    <div class="info-item">
+      <div class="info-icon">📍</div>
+      <div class="info-text">
+        <strong>Адреса</strong>
+        <span>{{ site.address }}</span>
+      </div>
+    </div>
+    <div class="info-item">
+      <div class="info-icon">📞</div>
+      <div class="info-text">
+        <strong>Телефон</strong>
+        <span><a href="tel:{{ site.phone }}" style="color:rgba(255,255,255,0.9)">{{ site.phone }}</a></span>
+      </div>
+    </div>
+    <div class="info-item">
+      <div class="info-icon">✉️</div>
+      <div class="info-text">
+        <strong>Електронна пошта</strong>
+        <span><a href="mailto:{{ site.email }}" style="color:rgba(255,255,255,0.9)">{{ site.email }}</a></span>
+      </div>
+    </div>
+  </div>
+</section>

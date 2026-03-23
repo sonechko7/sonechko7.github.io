@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="page-banner post-banner">
+  <div class="page-banner-inner">
+    <nav class="breadcrumbs" aria-label="Хлібні крихти">
+      <a href="{{ '/' | relative_url }}">Головна</a>
+      <span class="sep">›</span>
+      <a href="{{ '/novyny/' | relative_url }}">Новини</a>
+      <span class="sep">›</span>
+      <span>{{ page.title | truncate: 40 }}</span>
+    </nav>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+      {% for cat in page.categories %}
+        <span class="category-badge">{{ cat }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="page-container">
+  <article class="page-content post-content">
+    {% if page.image %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%;border-radius:12px;margin-bottom:28px;">
+    {% endif %}
+    {{ content }}
+    <a href="{{ '/novyny/' | relative_url }}" class="btn-back">← До новин</a>
+  </article>
+</div>
