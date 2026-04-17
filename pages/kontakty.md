@@ -16,7 +16,7 @@ permalink: /kontakty/
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
 <h3 style="margin-top:0">📞 Телефон</h3>
 <p><a href="tel:+380474061252">(04740) 6-12-52</a></p>
-<p style="font-size:0.88rem;color:var(--text-muted)">Пн–Пт: 07:00–18:00</p>
+<p style="font-size:0.88rem;color:var(--text-muted)">Пн–Пт: 07:30–18:00</p>
 </div>
 
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
@@ -26,7 +26,7 @@ permalink: /kontakty/
 
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
 <h3 style="margin-top:0">🕖 Режим роботи</h3>
-<p>Пн–Пт: 07:00–18:00</p>
+<p>Пн–Пт: 07:30–18:00</p>
 <p style="font-size:0.88rem;color:var(--text-muted)">Сб–Нд: вихідний</p>
 </div>
 
