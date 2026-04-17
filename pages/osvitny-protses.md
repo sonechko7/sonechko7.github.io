@@ -16,7 +16,7 @@ permalink: /osvitny-protses/
 * Підготовку до навчання у школі
 * Патріотичне виховання та любов до рідної мови
 
-*[Завантажити освітню програму (PDF)](https://drive.google.com/file/d/1GxCKSySwl0f_iOhrF0eSiduH3M6J7sdm/view?usp=sharing)* 
+*[Завантажити освітню програму (PDF)](#)* *(документ буде додано)*
 
 - - -
 
@@ -24,7 +24,7 @@ permalink: /osvitny-protses/
 
 Річний план роботи КЗДО №7 «Сонечко» на 2025–2026 навчальний рік визначає основні завдання та напрямки діяльності закладу.
 
-*[Завантажити річний план (PDF)](#)* *(документ буде додано)*
+*[Завантажити річний план (PDF)](https://docs.google.com/document/d/1Nmp7xVyQeebaywrvhbFhGqWz-wfGm2JQ/edit?usp=sharing&ouid=106649483359144360246&rtpof=true&sd=true)* 
 
 - - -
 
