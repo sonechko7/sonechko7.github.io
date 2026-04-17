@@ -4,7 +4,6 @@ title: Зворотний зв'язок
 description: Контактна інформація та форма зворотного зв'язку КЗДО №7 «Сонечко»
 permalink: /kontakty/
 ---
-
 ## Наші контакти
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0;">
@@ -22,7 +21,7 @@ permalink: /kontakty/
 
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
 <h3 style="margin-top:0">✉️ Електронна пошта</h3>
-<p><a href="mailto:dnz-sonechko@ukr.net">dnz-sonechko@ukr.net</a></p>
+<p><a href="mailto:dnz-sonechko@ukr.net">kzdo-sonechko7@ukr.net</a></p>
 </div>
 
 <div style="background:var(--sky-light);border-radius:12px;padding:24px;">
@@ -33,21 +32,20 @@ permalink: /kontakty/
 
 </div>
 
----
+- - -
 
 ## Написати нам
 
-Якщо у вас є питання, пропозиції або зауваження — надішліть листа на адресу **[dnz-sonechko@ukr.net](mailto:dnz-sonechko@ukr.net)** або зателефонуйте нам.
+Якщо у вас є питання, пропозиції або зауваження — надішліть листа на адресу **[kzdo-sonechko7@ukr.net](mailto:kzdo-sonechko7@ukr.net)** або зателефонуйте нам.
 
-Ми відповідаємо на листи протягом **1–2 робочих днів**.
-
----
+- - -
 
 ## Керівництво закладу
 
-Для запису на прийом до завідувача зверніться:
-- Особисто: вулиця Миру, 3а (каб. директора)
-- Телефоном: [(04740) 6-12-52](tel:+380474061252)
-- Email: [dnz-sonechko@ukr.net](mailto:dnz-sonechko@ukr.net)
+Для запису на прийом до директора зверніться:
 
-**Прийомні години:** Вівторок 09:00–12:00, Четвер 14:00–17:00
+* Особисто: вулиця Миру, 3а (каб. директора)
+* Телефоном: [(04740) 6-12-52](tel:+380474061252)
+* Email: [kzdo-sonechko7@ukr.net](mailto:dnz-sonechko@ukr.net)
+
+**Прийомні години:** Вівторок 09:00–12:00, Cереда 14:00–15:00
