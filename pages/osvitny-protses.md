@@ -16,7 +16,7 @@ permalink: /osvitny-protses/
 * Підготовку до навчання у школі
 * Патріотичне виховання та любов до рідної мови
 
-*[Завантажити освітню програму (PDF)](#)* *(документ буде додано)*
+*[Завантажити освітню програму (PDF)](https://drive.google.com/file/d/1GxCKSySwl0f_iOhrF0eSiduH3M6J7sdm/view?usp=sharing)*
 
 - - -
 
