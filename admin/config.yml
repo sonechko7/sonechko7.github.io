@@ -5,25 +5,19 @@
 # Сайт:        https://sonechko7.github.io
 # Адмін-панель: https://sonechko7.github.io/admin/
 #
-# НАЛАШТУВАННЯ NETLIFY (якщо ще не зроблено):
+# НАЛАШТУВАННЯ GITHUB OAuth (одноразово):
 #
-# 1. Зайдіть на https://app.netlify.com
-#    → Add new site → Import an existing project → GitHub
-#    → Виберіть репозиторій: sonechko7/sonechko7.github.io
-#    → Deploy (сайт залишається на GitHub Pages, Netlify тільки для OAuth)
+# 1. Зайдіть на https://github.com/settings/developers
+#    → OAuth Apps → New OAuth App
 #
-# 2. Увімкніть Identity:
-#    → Site configuration → Identity → Enable Identity
-#    → Registration: Invite only
-#    → Services → Git Gateway → Enable Git Gateway
+# 2. Заповніть:
+#    Application name:           Sonechko Admin
+#    Homepage URL:               https://sonechko7.github.io
+#    Authorization callback URL: https://sonechko7.github.io/admin/
 #
-# 3. Запросіть себе як користувача:
-#    → Identity → Invite users → введіть свій email
-#    (перейдіть за посиланням у листі та встановіть пароль)
-#
-# 4. Налаштуйте OAuth у Netlify:
-#    → sonechko.netlify.app → Site configuration → Access control → OAuth
-#    → Install provider → GitHub → вставте Client ID та Client Secret
+# 3. Після створення скопіюйте Client ID
+#    і вставте його у поле app_id нижче.
+#    (Client Secret не потрібен — використовується PKCE)
 #
 # ДЛЯ ЛОКАЛЬНОЇ РОЗРОБКИ (на своєму комп'ютері):
 #    Розкоментуйте рядок: local_backend: true
@@ -32,8 +26,11 @@
 # =============================================================
 
 backend:
-  name: git-gateway
+  name: github
+  repo: sonechko7/sonechko7.github.io
   branch: main
+  auth_type: pkce
+  app_id: Iv23liWXM36CbydqNFv0
 
 # local_backend: true   # ← Розкоментуйте для локального тестування
 
