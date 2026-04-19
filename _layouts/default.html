@@ -15,18 +15,6 @@
   {% include header.html %}
   <main id="main-content">{{ content }}</main>
   {% include footer.html %}
-  <!-- Netlify Identity Widget — потрібен для обробки invite/recovery посилань -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", function(user) {
-        if (!user) {
-          window.netlifyIdentity.on("login", function() {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+
 </body>
 </html>
