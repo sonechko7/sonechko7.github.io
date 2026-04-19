@@ -29,8 +29,6 @@ backend:
   name: github
   repo: sonechko7/sonechko7.github.io
   branch: main
-  auth_type: pkce
-  app_id: Iv23liWXM36CbydqNFv0
 
 # local_backend: true   # ← Розкоментуйте для локального тестування
 
