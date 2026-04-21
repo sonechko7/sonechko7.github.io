@@ -58,6 +58,6 @@ permalink: /pryiom/
 
 📍 вулиця Миру, 3а, м. Багачеве
 📞 [(04740) 6-12-52](tel:+380474061252)
-✉️ [dnz-sonechko@ukr.net](mailto:dnz-sonechko@ukr.net)
+✉️ [kzdo-sonechko7@ukr.net](mailto:kzdo-sonechko7@ukr.net)
 
 **Режим роботи адміністрації:** Пн–Пт 08:00–17:00
