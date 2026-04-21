@@ -14,9 +14,9 @@ permalink: /nash-kolektyv/
 | Анна ДЖАЛАЛОВА | Сестра медична старша | — |
 | Лідія ЩЕРБАК | Завідувач господарством | — |
 
-- ![](/assets/images/uploads/%D0%94%D0%B7%D1%96%D1%81%D1%8F%D0%BA%20%D0%9B%2C%20%D0%92%2C.jpg "Любов ДЗІСЯК")
+- [![](/assets/images/uploads/%D0%94%D0%B7%D1%96%D1%81%D1%8F%D0%BA%20%D0%9B%2C%20%D0%92%2C.jpg "Любов ДЗІСЯК")](https://drive.google.com/file/d/1DoRdJcstsT999-wGMxtJEnZR5UtgbqNx/view?usp=drive_link)
 
-- 
+-
 
 ## Педагогічний колектив
 
