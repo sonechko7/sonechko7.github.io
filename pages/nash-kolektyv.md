@@ -18,7 +18,7 @@ permalink: /nash-kolektyv/
 
 Любов ДЗІСЯК
 
-[![](/assets/images/uploads/%D0%97%D1%83%D0%B1%D1%80%D0%B8%D1%86%D1%8C%D0%BA%D0%B0.jpg)](https://drive.google.com/file/d/1NLuZAzfFfN6Y190rgKf_2ZzdYEsyvxsg/view?usp=sharing)
+[![Ірина ЗУБРИЦЬКА](/assets/images/uploads/%D0%97%D1%83%D0%B1%D1%80%D0%B8%D1%86%D1%8C%D0%BA%D0%B0.jpg)](https://drive.google.com/file/d/1NLuZAzfFfN6Y190rgKf_2ZzdYEsyvxsg/view?usp=sharing)
 
 Ірина ЗУБРИЦЬКА
 
