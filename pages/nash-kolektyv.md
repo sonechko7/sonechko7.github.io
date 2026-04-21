@@ -22,6 +22,14 @@ permalink: /nash-kolektyv/
 
 Ірина ЗУБРИЦЬКА
 
+[![Анна ДЖАЛАЛОВА](/assets/images/uploads/%D0%94%D0%B6%D0%B0%D0%BB%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0.jpg)](https://drive.google.com/file/d/1sW1sAcQRP9yLLaBa-vIscmdAlX2Y91Zq/view?usp=sharing)
+
+Анна ДЖАЛАЛОВА
+
+[![Лідія ЩЕРБАК](/assets/images/uploads/%D0%A9%D0%B5%D1%80%D0%B1%D0%B0%D0%BA.jpg)](https://drive.google.com/file/d/1Q-VF5Ka3Ft6LFKtgEPevow2vmTnZQ7hC/view?usp=sharing)
+
+Лідія ЩЕРБАК
+
 ## Педагогічний колектив
 
 | ПІБ | Група |
