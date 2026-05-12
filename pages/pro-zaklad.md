@@ -118,6 +118,7 @@ permalink: /pro-zaklad/
 
 📍 вулиця Миру, 3а, м. Багачеве, Черкаська обл.
 📞 [(04740) 6-12-52](tel:+380474061252)
-✉️ [kzdo-sonechko7@ukr.net](mailto:dnz-sonechko@ukr.net)
+✉️ [kzdo-sonechko7@ukr.net](mailto:kzdo-sonechko7@ukr.net)
 
 [Написати нам →](/kontakty/)
+  
