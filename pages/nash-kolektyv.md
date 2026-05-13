@@ -14,19 +14,19 @@ permalink: /nash-kolektyv/
 | Анна ДЖАЛАЛОВА | Сестра медична старша | — |
 | Лідія ЩЕРБАК | Завідувач господарством | — |
 
- [![Любов ДЗІСЯК](/assets/images/uploads/%D0%94%D0%B7%D1%96%D1%81%D1%8F%D0%BA%20%D0%9B%2C%20%D0%92%2C.jpg)](https://drive.google.com/file/d/1DoRdJcstsT999-wGMxtJEnZR5UtgbqNx/view?usp=drive_link)
+ ![Любов ДЗІСЯК](/assets/images/uploads/%D0%94%D0%B7%D1%96%D1%81%D1%8F%D0%BA%20%D0%9B%2C%20%D0%92%2C.jpg)
 
 Любов ДЗІСЯК
 
-[![Ірина ЗУБРИЦЬКА](/assets/images/uploads/%D0%97%D1%83%D0%B1%D1%80%D0%B8%D1%86%D1%8C%D0%BA%D0%B0.jpg)](https://drive.google.com/file/d/1NLuZAzfFfN6Y190rgKf_2ZzdYEsyvxsg/view?usp=sharing)
+![Ірина ЗУБРИЦЬКА](/assets/images/uploads/%D0%97%D1%83%D0%B1%D1%80%D0%B8%D1%86%D1%8C%D0%BA%D0%B0.jpg)
 
 Ірина ЗУБРИЦЬКА
 
-[![Анна ДЖАЛАЛОВА](/assets/images/uploads/%D0%94%D0%B6%D0%B0%D0%BB%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0.jpg)](https://drive.google.com/file/d/1sW1sAcQRP9yLLaBa-vIscmdAlX2Y91Zq/view?usp=sharing)
+![Анна ДЖАЛАЛОВА](/assets/images/uploads/%D0%94%D0%B6%D0%B0%D0%BB%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0.jpg)
 
 Анна ДЖАЛАЛОВА
 
-[![Лідія ЩЕРБАК](/assets/images/uploads/%D0%A9%D0%B5%D1%80%D0%B1%D0%B0%D0%BA.jpg)](https://drive.google.com/file/d/1Q-VF5Ka3Ft6LFKtgEPevow2vmTnZQ7hC/view?usp=sharing)
+![Лідія ЩЕРБАК](/assets/images/uploads/%D0%A9%D0%B5%D1%80%D0%B1%D0%B0%D0%BA.jpg)
 
 Лідія ЩЕРБАК
 
