@@ -11,7 +11,7 @@ permalink: /obovyazkova-informatsiia/
 
 ## 1. Установчі документи
 
-📄 [Статут КЗДО №7 «Сонечко» (PDF)](#) _(буде додано)_
+📄 [Статут КЗДО №7 «Сонечко» (PDF)](https://drive.google.com/file/d/1uzOCagwe6IfbOW1d897W5xysRSjyU_sI/view?usp=drive_link)
 
 📄 [Ліцензія на провадження освітньої діяльності (PDF)](#) _(буде додано)_
 
@@ -28,7 +28,7 @@ permalink: /obovyazkova-informatsiia/
 
 ## 3. Освітня програма
 
-📄 [Освітня програма КЗДО №7 «Сонечко» (PDF)](https://drive.google.com/file/d/1GxCKSySwl0f_iOhrF0eSiduH3M6J7sdm/view?usp=drive_link) _(буде додано)_
+📄 [Освітня програма КЗДО №7 «Сонечко» (PDF)](https://drive.google.com/file/d/1GxCKSySwl0f_iOhrF0eSiduH3M6J7sdm/view?usp=drive_link)
 
 Заклад реалізує освітній процес відповідно до Базового компонента дошкільної освіти та програми «Дитина».
 
@@ -36,7 +36,7 @@ permalink: /obovyazkova-informatsiia/
 
 ## 4. Річний план роботи
 
-📄 [Річний план роботи на 2025–2026 н.р. (PDF)](https://docs.google.com/document/d/1Nmp7xVyQeebaywrvhbFhGqWz-wfGm2JQ/edit?usp=drive_link&ouid=106649483359144360246&rtpof=true&sd=true) _(буде додано)_
+📄 [Річний план роботи на 2025–2026 н.р. (PDF)](https://docs.google.com/document/d/1Nmp7xVyQeebaywrvhbFhGqWz-wfGm2JQ/edit?usp=sharing&ouid=106649483359144360246&rtpof=true&sd=true)
 
 ***
 
@@ -54,11 +54,7 @@ _Опис матеріально-технічної бази буде розмі
 
 ## 7. Фінансові звіти
 
-📄 [Фінансовий звіт за 2025 рік (PDF)](#) _(буде додано)_
-
-📄 [Фінансовий звіт за 2024 рік (PDF)](#) _(буде додано)_
-
-📄 [Кошторис на 2025 рік (PDF)](#) _(буде додано)_
+📄 [Фінансовий звіт за 2025 рік (PDF)](https://docs.google.com/spreadsheets/d/1q3aMZDNLAsCe_t9jzYCLSOja-lpMBT_I/edit?usp=drive_link&ouid=106649483359144360246&rtpof=true&sd=true) 
 
 ***
 
@@ -72,9 +68,7 @@ _Опис матеріально-технічної бази буде розмі
 
 ## 9. Звіти керівника
 
-📄 [Звіт керівника за 2024–2025 н.р. (PDF)](#) _(буде додано)_
-
-📄 [Звіт керівника за 2023–2024 н.р. (PDF)](#) _(буде додано)_
+📄 [Звіт керівника за 2024–2025 н.р. (PDF)](https://docs.google.com/document/d/1zFGHYvIks98ltIc69TUK9sJsHo2j0-dC/edit?usp=drive_link&ouid=106649483359144360246&rtpof=true&sd=true)
 
 ***
 
