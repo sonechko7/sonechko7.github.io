@@ -43,6 +43,7 @@
         {% for item in site.nav limit: 5 %}
           <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
         {% endfor %}
+        <li><a href="{{ '/kontakty/' | relative_url }}">Зворотний зв'язок</a></li>
       </ul>
     </div>
 

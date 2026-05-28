@@ -27,8 +27,6 @@ nav:
     url: /dlia-batkiv/
   - title: Новини
     url: /novyny/
-  - title: Контакти
-    url: /kontakty/
 
 # Build settings
 plugins:
