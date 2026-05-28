@@ -231,6 +231,58 @@ collections:
             value_type: "int"
             min: 0
 
+  # ------ НАШ КОЛЕКТИВ ------
+  - name: "team"
+    label: "👥 Наш колектив"
+    label_singular: "Наш колектив"
+    editor:
+      preview: false
+    files:
+      - label: "Працівники закладу"
+        name: "team"
+        file: "_data/team.yml"
+        fields:
+          - label: "Адміністрація"
+            name: "administration"
+            widget: "list"
+            label_singular: "Працівник"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: "ПІБ", name: "name", widget: "string" }
+              - { label: "Посада", name: "role", widget: "string" }
+              - { label: "Телефон", name: "phone", widget: "string", required: false }
+              - { label: "Фото", name: "photo", widget: "image", required: false, hint: "Портрет (рекомендоване співвідношення 4:5, напр. 300×375 px). Якщо не додати — буде показано першу літеру імені" }
+
+          - label: "Педагогічний колектив"
+            name: "teachers"
+            widget: "list"
+            label_singular: "Вихователь"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: "ПІБ", name: "name", widget: "string" }
+              - { label: "Група", name: "role", widget: "string" }
+              - { label: "Фото", name: "photo", widget: "image", required: false, hint: "Необов'язково. Якщо не додати — буде показано першу літеру імені" }
+
+          - label: "Спеціалісти"
+            name: "specialists"
+            widget: "list"
+            label_singular: "Спеціаліст"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: "ПІБ", name: "name", widget: "string" }
+              - { label: "Спеціальність", name: "role", widget: "string" }
+              - { label: "Фото", name: "photo", widget: "image", required: false, hint: "Необов'язково. Якщо не додати — буде показано першу літеру імені" }
+
+          - label: "Підвищення кваліфікації — текст"
+            name: "development_text"
+            widget: "text"
+
+          - label: "Підвищення кваліфікації — фото/сертифікати"
+            name: "development_photos"
+            widget: "list"
+            label_singular: "Фото"
+            field: { label: "Зображення", name: "image", widget: "image" }
+
   # ------ СТОРІНКИ ------
   - name: "pages"
     label: "📄 Сторінки сайту"
@@ -255,13 +307,15 @@ collections:
           - { label: "Опис (SEO)", name: "description", widget: "string" }
           - { label: "Вміст сторінки", name: "body", widget: "markdown" }
 
-      - label: "Наш колектив"
+      - label: "Наш колектив (заголовок та опис)"
         name: "nash-kolektyv"
         file: "pages/nash-kolektyv.md"
         fields:
           - { label: "Заголовок", name: "title", widget: "string" }
           - { label: "Опис (SEO)", name: "description", widget: "string" }
-          - { label: "Вміст сторінки", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "kolektyv" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/nash-kolektyv/" }
+        hint: "Список працівників редагується в розділі «👥 Наш колектив»"
 
       - label: "Прийом до закладу"
         name: "pryiom"

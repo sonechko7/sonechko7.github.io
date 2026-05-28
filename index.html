@@ -102,7 +102,8 @@ title: Головна
 
   <div class="news-grid">
     {% if site.posts.size > 0 %}
-      {% for post in site.posts limit: 3 %}
+      {% assign latest_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in latest_posts limit: 3 %}
         <article class="news-card">
           <div class="news-card-img">
             {% if post.image %}
