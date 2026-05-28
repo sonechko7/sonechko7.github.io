@@ -18,14 +18,28 @@ layout: default
 
 <div class="news-archive">
   {% if site.posts.size > 0 %}
+    <div class="news-filter" role="group" aria-label="Фільтр за категорією">
+      <button type="button" class="news-filter-btn active" data-cat="">Усі</button>
+      {% for cat in site.categories %}
+        <button type="button" class="news-filter-btn" data-cat="{{ cat[0] }}">{{ cat[0] }}</button>
+      {% endfor %}
+    </div>
+
     <div class="news-list">
       {% for post in site.posts %}
         {% assign month_num = post.date | date: "%m" %}
         {% assign month_name = site.data.months_uk[month_num] %}
-        <a href="{{ post.url | relative_url }}" class="news-list-item">
-          <div class="news-list-date">
-            <span class="day">{{ post.date | date: "%-d" }}</span>
-            <span class="month">{{ month_name }}</span>
+        <a href="{{ post.url | relative_url }}" class="news-list-item" data-categories="{{ post.categories | join: '|' }}">
+          <div class="news-list-thumb">
+            {% if post.image %}
+              <img src="{{ post.image | replace: ' ', '%20' | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            {% else %}
+              <span class="news-list-thumb-icon">{{ post.icon | default: '📰' }}</span>
+            {% endif %}
+            <span class="news-list-thumb-date">
+              <span class="day">{{ post.date | date: "%-d" }}</span>
+              <span class="month">{{ month_name }}</span>
+            </span>
           </div>
           <div class="news-list-body">
             <div class="news-list-meta">
@@ -40,9 +54,34 @@ layout: default
         </a>
       {% endfor %}
     </div>
+
+    <p class="news-empty-filter" hidden>За цією категорією новин поки немає 🌻</p>
   {% else %}
     <p style="text-align:center;color:var(--text-muted);padding:60px 0;font-size:1.1rem;">
       🌻 Новини незабаром з'являться тут
     </p>
   {% endif %}
 </div>
+
+<script>
+  (function() {
+    var buttons = document.querySelectorAll('.news-filter-btn');
+    var items = document.querySelectorAll('.news-list-item');
+    var emptyMsg = document.querySelector('.news-empty-filter');
+    if (!buttons.length) return;
+    buttons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var cat = btn.dataset.cat;
+        buttons.forEach(function(b) { b.classList.toggle('active', b === btn); });
+        var visible = 0;
+        items.forEach(function(item) {
+          var cats = (item.dataset.categories || '').split('|');
+          var show = cat === '' || cats.indexOf(cat) !== -1;
+          item.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        if (emptyMsg) emptyMsg.hidden = visible !== 0;
+      });
+    });
+  })();
+</script>
