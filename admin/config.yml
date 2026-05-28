@@ -104,6 +104,133 @@ collections:
         name: "body"
         widget: "markdown"
 
+  # ------ ГОЛОВНА СТОРІНКА ------
+  - name: "home"
+    label: "🏠 Головна сторінка"
+    label_singular: "Головна сторінка"
+    editor:
+      preview: false
+    files:
+      - label: "Головна сторінка"
+        name: "home"
+        file: "_data/home.yml"
+        fields:
+          # --- Банер (верхній блок) ---
+          - label: "Фото на головній (банер)"
+            name: "hero_image"
+            widget: "image"
+            hint: "Фото дітей у рамці на головній сторінці (рекомендований розмір: 600×360 px)"
+
+          - label: "Вітальний напис (над назвою)"
+            name: "hero_welcome"
+            widget: "string"
+            hint: "Наприклад: «Ласкаво просимо до»"
+
+          - label: "Назва закладу — основна частина"
+            name: "hero_title_main"
+            widget: "string"
+            hint: "Наприклад: «КЗДО №7»"
+
+          - label: "Назва закладу — виділена частина"
+            name: "hero_title_accent"
+            widget: "string"
+            hint: "Виділяється кольором. Наприклад: «Сонечко»"
+
+          - label: "Гасло (під назвою)"
+            name: "hero_tagline"
+            widget: "string"
+            hint: "Наприклад: «Територія щасливого дитинства»"
+
+          - label: "Кнопка 1 (синя) — текст"
+            name: "hero_button_primary_text"
+            widget: "string"
+
+          - label: "Кнопка 1 (синя) — посилання"
+            name: "hero_button_primary_link"
+            widget: "string"
+            hint: "Адреса сторінки. Наприклад: /pro-zaklad/"
+
+          - label: "Кнопка 2 (світла) — текст"
+            name: "hero_button_secondary_text"
+            widget: "string"
+
+          - label: "Кнопка 2 (світла) — посилання"
+            name: "hero_button_secondary_link"
+            widget: "string"
+            hint: "Адреса сторінки. Наприклад: /pryiom/"
+
+          # --- Переваги (4 блоки) ---
+          - label: "Переваги (4 блоки)"
+            name: "features"
+            widget: "list"
+            max: 4
+            min: 4
+            label_singular: "Перевага"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Іконка (emoji)", name: "icon", widget: "string", hint: "Наприклад: 🛡️ 📚 💛 🌱" }
+              - { label: "Підпис", name: "label", widget: "text", hint: "Можна у два рядки — натисніть Enter для переносу" }
+
+          # --- Блок новин ---
+          - label: "Заголовок новин — основна частина"
+            name: "news_title_main"
+            widget: "string"
+            hint: "Наприклад: «Останні»"
+
+          - label: "Заголовок новин — виділена частина"
+            name: "news_title_accent"
+            widget: "string"
+            hint: "Виділяється кольором. Наприклад: «новини»"
+
+          - label: "Текст кнопки «Всі новини»"
+            name: "news_all_text"
+            widget: "string"
+            hint: "Стрілку → додавати не потрібно"
+
+          - label: "Напис, коли новин ще немає"
+            name: "news_empty_text"
+            widget: "string"
+            hint: "Показується, якщо жодної новини ще не опубліковано"
+
+          # --- Нижній інфо-блок ---
+          - label: "Режим роботи"
+            name: "working_hours"
+            widget: "string"
+            hint: "Наприклад: «Пн–Пт: 07:00–18:00»"
+
+  # ------ КОНТАКТИ ТА РЕКВІЗИТИ ------
+  - name: "settings"
+    label: "⚙️ Контакти та реквізити"
+    label_singular: "Контакти та реквізити"
+    editor:
+      preview: false
+    files:
+      - label: "Контакти та реквізити"
+        name: "contacts"
+        file: "_data/contacts.yml"
+        fields:
+          - label: "Адреса"
+            name: "address"
+            widget: "string"
+            hint: "Показується у шапці, підвалі та на головній"
+          - label: "Телефон"
+            name: "phone"
+            widget: "string"
+            hint: "Наприклад: (04740) 6-12-52"
+          - label: "Електронна пошта"
+            name: "email"
+            widget: "string"
+          - label: "Кількість груп"
+            name: "groups"
+            widget: "number"
+            value_type: "int"
+            min: 0
+          - label: "Кількість вихованців"
+            name: "pupils"
+            widget: "number"
+            value_type: "int"
+            min: 0
+
   # ------ СТОРІНКИ ------
   - name: "pages"
     label: "📄 Сторінки сайту"

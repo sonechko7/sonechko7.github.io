@@ -1,0 +1,31 @@
+hero_image: /assets/images/hero.jpg
+hero_welcome: "Ласкаво просимо до"
+hero_title_main: "КЗДО №7"
+hero_title_accent: "«Сонечко»"
+hero_tagline: "Територія щасливого дитинства"
+hero_button_primary_text: "Детальніше про нас"
+hero_button_primary_link: "/pro-zaklad/"
+hero_button_secondary_text: "Записатись до ЗДО"
+hero_button_secondary_link: "/pryiom/"
+features:
+  - icon: "🛡️"
+    label: |-
+      Безпечне
+      середовище
+  - icon: "📚"
+    label: |-
+      Сучасна
+      освіта
+  - icon: "💛"
+    label: |-
+      Турбота про
+      кожного
+  - icon: "🌱"
+    label: |-
+      Гармонійний
+      розвиток
+news_title_main: "Останні"
+news_title_accent: "новини"
+news_all_text: "Всі новини"
+news_empty_text: "Новини незабаром з'являться тут 🌻"
+working_hours: "Пн–Пт: 07:00–18:00"

@@ -59,24 +59,22 @@ title: Головна
 
   <div class="hero-inner">
     <div class="hero-text">
-      <p class="hero-welcome">Ласкаво просимо до</p>
-      <h1 class="hero-title">КЗДО №7 <span class="accent">«Сонечко»</span></h1>
-      <p class="hero-tagline">Територія щасливого дитинства</p>
+      <p class="hero-welcome">{{ site.data.home.hero_welcome }}</p>
+      <h1 class="hero-title">{{ site.data.home.hero_title_main }} <span class="accent">{{ site.data.home.hero_title_accent }}</span></h1>
+      <p class="hero-tagline">{{ site.data.home.hero_tagline }}</p>
       <p class="hero-address">
-        {{ site.address }} &bull; {{ site.groups }} груп &bull; {{ site.pupils }} вихованців
+        {{ site.data.contacts.address }} &bull; {{ site.data.contacts.groups }} груп &bull; {{ site.data.contacts.pupils }} вихованців
       </p>
       <div class="hero-buttons">
-        <a href="{{ '/pro-zaklad/' | relative_url }}" class="btn-hero-primary">Детальніше про нас</a>
-        <a href="{{ '/pryiom/' | relative_url }}" class="btn-hero-secondary">Записатись до ЗДО</a>
+        <a href="{{ site.data.home.hero_button_primary_link | relative_url }}" class="btn-hero-primary">{{ site.data.home.hero_button_primary_text }}</a>
+        <a href="{{ site.data.home.hero_button_secondary_link | relative_url }}" class="btn-hero-secondary">{{ site.data.home.hero_button_secondary_text }}</a>
       </div>
     </div>
 
     <div class="hero-visual">
       <div class="children-frame">
-        <div class="children-placeholder">
-          <div class="emoji-kids">👦🏼 👧🏼 👦🏻<br>👧🏽 👦🏼 👧🏻</div>
-          <p>* місце для фото дітей</p>
-        </div>
+        <img src="{{ site.data.home.hero_image | relative_url }}"
+             alt="Діти КЗДО №7 «Сонечко»">
       </div>
     </div>
   </div>
@@ -85,30 +83,21 @@ title: Головна
 <!-- ===== FEATURES STRIP ===== -->
 <section class="features-strip">
   <div class="features-inner">
-    <div class="feature-item">
-      <div class="feature-icon safe">🛡️</div>
-      <span class="feature-label">Безпечне<br>середовище</span>
-    </div>
-    <div class="feature-item">
-      <div class="feature-icon edu">📚</div>
-      <span class="feature-label">Сучасна<br>освіта</span>
-    </div>
-    <div class="feature-item">
-      <div class="feature-icon care">💛</div>
-      <span class="feature-label">Турбота про<br>кожного</span>
-    </div>
-    <div class="feature-item">
-      <div class="feature-icon grow">🌱</div>
-      <span class="feature-label">Гармонійний<br>розвиток</span>
-    </div>
+    {% assign feature_classes = "safe,edu,care,grow" | split: "," %}
+    {% for feature in site.data.home.features %}
+      <div class="feature-item">
+        <div class="feature-icon {{ feature_classes[forloop.index0] }}">{{ feature.icon }}</div>
+        <span class="feature-label">{{ feature.label | strip | newline_to_br }}</span>
+      </div>
+    {% endfor %}
   </div>
 </section>
 
 <!-- ===== LATEST NEWS ===== -->
 <section class="news-section">
   <div class="section-header">
-    <h2 class="section-title">Останні <span>новини</span></h2>
-    <a href="{{ '/novyny/' | relative_url }}" class="btn-primary" style="font-size:0.88rem;padding:10px 22px;">Всі новини →</a>
+    <h2 class="section-title">{{ site.data.home.news_title_main }} <span>{{ site.data.home.news_title_accent }}</span></h2>
+    <a href="{{ '/novyny/' | relative_url }}" class="btn-primary" style="font-size:0.88rem;padding:10px 22px;">{{ site.data.home.news_all_text }} →</a>
   </div>
 
   <div class="news-grid">
@@ -139,7 +128,7 @@ title: Головна
       {% endfor %}
     {% else %}
       <p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px 0;">
-        Новини незабаром з'являться тут 🌻
+        {{ site.data.home.news_empty_text }}
       </p>
     {% endif %}
   </div>
@@ -152,28 +141,28 @@ title: Головна
       <div class="info-icon">🕖</div>
       <div class="info-text">
         <strong>Режим роботи</strong>
-        <span>Пн–Пт: 07:00–18:00</span>
+        <span>{{ site.data.home.working_hours }}</span>
       </div>
     </div>
     <div class="info-item">
       <div class="info-icon">📍</div>
       <div class="info-text">
         <strong>Адреса</strong>
-        <span>{{ site.address }}</span>
+        <span>{{ site.data.contacts.address }}</span>
       </div>
     </div>
     <div class="info-item">
       <div class="info-icon">📞</div>
       <div class="info-text">
         <strong>Телефон</strong>
-        <span><a href="tel:{{ site.phone }}" style="color:rgba(255,255,255,0.9)">{{ site.phone }}</a></span>
+        <span><a href="tel:{{ site.data.contacts.phone }}" style="color:rgba(255,255,255,0.9)">{{ site.data.contacts.phone }}</a></span>
       </div>
     </div>
     <div class="info-item">
       <div class="info-icon">✉️</div>
       <div class="info-text">
         <strong>Електронна пошта</strong>
-        <span><a href="mailto:{{ site.email }}" style="color:rgba(255,255,255,0.9)">{{ site.email }}</a></span>
+        <span><a href="mailto:{{ site.data.contacts.email }}" style="color:rgba(255,255,255,0.9)">{{ site.data.contacts.email }}</a></span>
       </div>
     </div>
   </div>
