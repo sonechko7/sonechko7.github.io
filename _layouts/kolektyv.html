@@ -13,24 +13,24 @@ layout: page
 </div>
 
 <h2>Педагогічний колектив</h2>
-<div class="team-grid">
+<table>
+<thead><tr><th>ПІБ</th><th>Група / посада</th></tr></thead>
+<tbody>
 {% for m in site.data.team.teachers -%}
-<div class="team-card">
-{% if m.photo %}<img class="team-photo" src="{{ m.photo | replace: ' ', '%20' | relative_url }}" alt="{{ m.name }}" loading="lazy">{% else %}<div class="team-photo team-photo--placeholder" aria-hidden="true">{{ m.name | slice: 0 }}</div>{% endif %}
-<div class="team-info"><p class="team-name">{{ m.name }}</p><p class="team-role">{{ m.role }}</p></div>
-</div>
+<tr><td>{{ m.name }}</td><td>{{ m.role }}</td></tr>
 {% endfor -%}
-</div>
+</tbody>
+</table>
 
 <h2>Спеціалісти</h2>
-<div class="team-grid">
+<table>
+<thead><tr><th>ПІБ</th><th>Посада</th></tr></thead>
+<tbody>
 {% for m in site.data.team.specialists -%}
-<div class="team-card">
-{% if m.photo %}<img class="team-photo" src="{{ m.photo | replace: ' ', '%20' | relative_url }}" alt="{{ m.name }}" loading="lazy">{% else %}<div class="team-photo team-photo--placeholder" aria-hidden="true">{{ m.name | slice: 0 }}</div>{% endif %}
-<div class="team-info"><p class="team-name">{{ m.name }}</p><p class="team-role">{{ m.role }}</p></div>
-</div>
+<tr><td>{{ m.name }}</td><td>{{ m.role }}</td></tr>
 {% endfor -%}
-</div>
+</tbody>
+</table>
 
 <h2>Підвищення кваліфікації</h2>
 <p>{{ site.data.team.development_text }}</p>

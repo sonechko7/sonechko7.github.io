@@ -94,6 +94,13 @@ collections:
         required: false
         hint: "Фото для картки новини (рекомендований розмір: 800×500 px)"
 
+      - label: "Галерея фото (слайдер)"
+        name: "gallery"
+        widget: "list"
+        required: false
+        field: { label: "Зображення", name: "image", widget: "image" }
+        hint: "Кілька фото для слайдера у новині. Перетягуванням можна змінювати порядок."
+
       - label: "Короткий опис (для картки на головній)"
         name: "excerpt"
         widget: "string"

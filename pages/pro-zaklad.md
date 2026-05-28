@@ -16,7 +16,6 @@ permalink: /pro-zaklad/
 * **Email:** kzdo-sonechko7@ukr.net
 * **Кількість груп:** 7
 * **Кількість вихованців:** 129
-* - -
 
 ## Наші групи
 

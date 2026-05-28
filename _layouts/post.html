@@ -25,10 +25,16 @@ layout: default
 
 <div class="page-container">
   <article class="page-content post-content">
-    {% if page.image %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%;border-radius:12px;margin-bottom:28px;">
+    {% if page.gallery and page.gallery.size > 0 %}
+      <div class="post-gallery" data-post-gallery>
+        {% for img in page.gallery %}
+          <img src="{{ img | relative_url }}" alt="{{ page.title }}" loading="lazy">
+        {% endfor %}
+      </div>
     {% endif %}
-    {{ content }}
+    <div class="post-body">
+      {{ content }}
+    </div>
 
     <div class="post-nav">
       <div class="post-nav-prev">
