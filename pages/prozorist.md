@@ -21,7 +21,7 @@ permalink: /prozorist/
 
 ### 2025 рік
 
-📄 [_Фінансовий звіт за 2025 рік (PDF)_](https://docs.google.com/spreadsheets/d/1q3aMZDNLAsCe_t9jzYCLSOja-lpMBT_I/edit?usp=sharing&ouid=106649483359144360246&rtpof=true&sd=true) _(документ буде додано)_
+📄 [_Фінансовий звіт за 2025 рік (PDF)_](https://docs.google.com/spreadsheets/d/1q3aMZDNLAsCe_t9jzYCLSOja-lpMBT_I/edit?usp=sharing&ouid=106649483359144360246&rtpof=true&sd=true)
 
 ***
 
@@ -29,7 +29,7 @@ permalink: /prozorist/
 
 Щорічний звіт завідувача КЗДО №7 «Сонечко» перед педагогічним колективом та батьківською громадськістю.
 
-📄 [_Звіт керівника за 2024–2025 н.р. (PDF)_](https://docs.google.com/document/d/1zFGHYvIks98ltIc69TUK9sJsHo2j0-dC/edit?usp=sharing&ouid=106649483359144360246&rtpof=true&sd=true) _(документ буде додано)_
+📄 [_Звіт керівника за 2025–2026 н.р. (PDF)_](https://drive.google.com/file/d/1eJw-vlCuu8eh6c8x2WIkNnZl5X8Es9Iz/view?usp=sharing)
 
 ***
 
